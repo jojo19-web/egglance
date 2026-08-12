@@ -1,0 +1,28 @@
+{
+  "name": "planta-eggplant-detection",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Planta: AR-based eggplant disease detection system using YOLO v26",
+  "author": "Your Name",
+  "license": "MIT",
+  "scripts": {
+    "start": "npx http-server -p 3000",
+    "dev": "npx http-server -p 3000 -c-1"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "keywords": [
+    "agriculture",
+    "disease-detection",
+    "eggplant",
+    "ar",
+    "yolo",
+    "computer-vision",
+    "farming"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/egglance.git"
+  }
+}
