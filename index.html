@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Planta is an augmented reality-based eggplant disease detection system using YOLO v26." />
+    <title>Planta | AR Eggplant Disease Detection Using YOLO v26</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Saira:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Planta home"><span class="brand-mark">P</span>Planta</a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation"><span></span><span></span></button>
+      <nav id="site-nav" class="site-nav" aria-label="Main navigation">
+        <a href="#how-it-works">How it works</a>
+        <a href="#field-focus">Why Planta</a>
+        <a class="nav-cta" href="#download">Get the app <span aria-hidden="true">↗</span></a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow"><span></span> Field-ready AI</p>
+          <h1>AR disease detection<br />for eggplants<br /></h1>
+          <p class="hero-text">Planta is an augmented reality-based disease detection system for eggplants. It turns a live camera view into a disease readout, confidence score, and next-step guidance you can use in the field, even when you are offline.</p>
+          <div class="actions">
+            <a class="button primary" href="#download">Get the app <span aria-hidden="true">↗</span></a>
+            <a class="text-link" href="#how-it-works">See how it works <span aria-hidden="true">↓</span></a>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <img src="assets/leaf.jpg" alt="Eggplant leaves in a field" />
+          <div class="scan-line"></div>
+          <div class="scan-card">
+            <div class="scan-heading"><span class="pulse"></span>Live detection</div>
+            <div class="scan-result"><strong>Leaf spot likely</strong><span>96%<small>confidence</small></span></div>
+            <p>Isolate affected leaves and review treatment guidance.</p>
+          </div>
+          <div class="corner c1"></div><div class="corner c2"></div><div class="corner c3"></div><div class="corner c4"></div>
+        </div>
+      </section>
+
+      <section id="how-it-works" class="workflow">
+        <div class="section-intro">
+          <p class="eyebrow"><span></span> From leaf to next step</p>
+          <h2>In under a minute.</h2>
+          <p>Made for fast checks between rows, with offline detection when the signal drops.</p>
+        </div>
+        <div class="steps">
+          <article><span class="step-number">01 / Capture</span><div class="step-icon camera"></div><h3>Scan the leaf</h3><p>Frame the affected area with your phone camera. No lab tools, no guesswork.</p></article>
+          <article><span class="step-number">02 / Analyze</span><div class="step-icon signal"></div><h3>See the signal</h3><p>The model runs on your device and flags likely diseases, severity, and confidence even offline.</p></article>
+          <article><span class="step-number">03 / Act</span><div class="step-icon check"></div><h3>Follow with confidence</h3><p>Get clear guidance for monitoring, isolating, and addressing the issue before it spreads.</p></article>
+        </div>
+      </section>
+
+      <section id="field-focus" class="focus">
+        <div class="focus-image"><img src="assets/leaf.jpg" alt="Healthy eggplant leaves" /></div>
+        <div class="focus-copy">
+          <p class="eyebrow"><span></span> Your field, in focus</p>
+          <h2>Spot patterns before they become a problem.</h2>
+          <p>Planta keeps every scan in one timeline, helping you notice recurring hotspots and make better calls across the season. Your core detection tools stay available offline, wherever the field takes you.</p>
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div><p class="eyebrow"><span></span> Built for the field</p><h2>More certainty.<br />Less crop loss.</h2></div>
+        <ul><li>Clear disease labels in plain language</li><li>Confidence scores when decisions matter</li><li>Scan history that makes patterns visible</li></ul>
+      </section>
+
+      <section id="download" class="download">
+        <p class="eyebrow"><span></span> The next check starts here</p>
+        <h2>Carry a sharper eye<br />for every field walk.</h2>
+        <p>Free to start. Built around the crop you care for.</p>
+        <div class="store-links"><a href="app-demo.apk" download aria-label="Download the Planta Android app"><small>Android app</small>Download APK</a></div>
+      </section>
+    </main>
+
+    <footer><a class="brand" href="#top"><span class="brand-mark">P</span>Planta</a><p>Planta helps you observe faster. Always follow local crop-care guidance.</p><span>Planta © 2026</span></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

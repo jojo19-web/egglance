@@ -1,0 +1,13 @@
+{
+  "name": "planta-landing-page",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Planta landing page served with Node.js.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
